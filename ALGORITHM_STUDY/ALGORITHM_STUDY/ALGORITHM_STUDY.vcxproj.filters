@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp">
+    <ClCompile Include="P19 LinearSearch.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="p28 BinarySearch.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
