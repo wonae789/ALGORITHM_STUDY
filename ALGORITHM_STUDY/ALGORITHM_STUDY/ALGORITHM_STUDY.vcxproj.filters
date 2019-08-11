@@ -21,5 +21,8 @@
     <ClCompile Include="p28 BinarySearch.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="p57 FibonacciFunc.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

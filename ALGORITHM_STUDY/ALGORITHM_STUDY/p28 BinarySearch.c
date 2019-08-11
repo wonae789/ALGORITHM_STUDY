@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int BSearch(int ar[], int len, int target) // 순차 탐색 알고리즘 적용된 함수
+int BSearch(int ar[], int len, int target) // 이진 탐색 알고리즘 적용된 함수
 {
 	int first = 0;
 	int last = len - 1;
