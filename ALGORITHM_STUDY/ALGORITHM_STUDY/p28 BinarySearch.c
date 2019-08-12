@@ -5,7 +5,6 @@ int BSearch(int ar[], int len, int target) // 이진 탐색 알고리즘 적용된 함수
 	int first = 0;
 	int last = len - 1;
 	int min;
-
 	while (first <= last)
 	{
 		min = (first + last) / 2;
@@ -13,16 +12,12 @@ int BSearch(int ar[], int len, int target) // 이진 탐색 알고리즘 적용된 함수
 		{
 			return min;
 		}
-
 		else
 		{
 			if (target < ar[min])
 				last = min - 1;
 			else
 				first = min + 1;
-
-
-
 		}
 	}
 	return -1;
