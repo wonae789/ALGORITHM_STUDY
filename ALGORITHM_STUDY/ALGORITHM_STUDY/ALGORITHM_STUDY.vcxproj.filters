@@ -27,5 +27,8 @@
     <ClCompile Include="p63 RecursiveBinarySearch.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="p71 HanoiTowerSolu.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
