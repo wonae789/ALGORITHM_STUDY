@@ -39,10 +39,10 @@
     <ClCompile Include="ListMain.c">
       <Filter>소스 파일\p81 LIST</Filter>
     </ClCompile>
-    <ClCompile Include="test.c">
-      <Filter>헤더 파일</Filter>
-    </ClCompile>
     <ClCompile Include="p107 LinkedRead.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
