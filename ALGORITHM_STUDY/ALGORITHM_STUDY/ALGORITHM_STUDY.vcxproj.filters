@@ -42,7 +42,7 @@
     <ClCompile Include="p107 LinkedRead.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test.c">
+    <ClCompile Include="p106 ArrayRead.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
