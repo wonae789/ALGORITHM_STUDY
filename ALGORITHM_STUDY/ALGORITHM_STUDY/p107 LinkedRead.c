@@ -16,6 +16,7 @@ int main(void)
 	Node* newNode = NULL;
 	int readData;
 
+
 	/**** 데이터를 입력 받는 과정 ****/
 	while (1)
 	{

@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\p81 LIST">
       <UniqueIdentifier>{f4fa0f86-475d-48dd-a51e-b539dd361a51}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\p144 DLIST">
+      <UniqueIdentifier>{3a87b36e-0fc5-4d31-a6ed-9b150cb2ee4f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P19 LinearSearch.c">
@@ -45,10 +48,19 @@
     <ClCompile Include="p106 ArrayRead.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="DLinkedList.c">
+      <Filter>소스 파일\p144 DLIST</Filter>
+    </ClCompile>
+    <ClCompile Include="DLinkedListMain.c">
+      <Filter>소스 파일\p144 DLIST</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayList.h">
       <Filter>소스 파일\p81 LIST</Filter>
+    </ClInclude>
+    <ClInclude Include="DLinkedList.h">
+      <Filter>소스 파일\p144 DLIST</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
