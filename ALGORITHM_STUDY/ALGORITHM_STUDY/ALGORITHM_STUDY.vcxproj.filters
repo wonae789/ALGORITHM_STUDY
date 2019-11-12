@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\p188 DBList%28Double%29,05-2">
       <UniqueIdentifier>{547c2fe9-47b3-4ab1-9138-ebb98d71981a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\p205 stack">
+      <UniqueIdentifier>{8d57494b-72f0-41ab-b606-c56b11cbbb92}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P19 LinearSearch.c">
@@ -63,6 +66,12 @@
     <ClCompile Include="DBLinkedListMain.c">
       <Filter>소스 파일\p188 DBList%28Double%29,05-2</Filter>
     </ClCompile>
+    <ClCompile Include="ArrayBaseStackMain.c">
+      <Filter>소스 파일\p205 stack</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayBaseStack.c">
+      <Filter>소스 파일\p205 stack</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayList.h">
@@ -73,6 +82,9 @@
     </ClInclude>
     <ClInclude Include="DBLinkedList.h">
       <Filter>소스 파일\p188 DBList%28Double%29,05-2</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayBaseStack.h">
+      <Filter>소스 파일\p205 stack</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
