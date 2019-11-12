@@ -21,7 +21,7 @@ void StackInit(Stack * pstack);
 int SIsEmpty(Stack* pstack);
 
 void Spush(Stack* pstack, Data data);
-Data SPop(Stack* public);
+Data SPop(Stack* pstack);
 Data SPeek(Stack* pstack);
 
 

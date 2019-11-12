@@ -22,8 +22,14 @@
     <Filter Include="소스 파일\p188 DBList%28Double%29,05-2">
       <UniqueIdentifier>{547c2fe9-47b3-4ab1-9138-ebb98d71981a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\p205 stack">
+    <Filter Include="소스 파일\p213 ListBaseStack">
+      <UniqueIdentifier>{77072d11-c4a2-4e46-9f0c-32a86fd21055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\p211 ArrayBaseStack">
       <UniqueIdentifier>{8d57494b-72f0-41ab-b606-c56b11cbbb92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\p162 CLinkedList">
+      <UniqueIdentifier>{9ddcff04-66da-4cd7-b242-f666c7e2a7fc}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -42,23 +48,11 @@
     <ClCompile Include="p71 HanoiTowerSolu.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ArrayList.c">
-      <Filter>소스 파일\p81 LIST%28Array%29</Filter>
-    </ClCompile>
-    <ClCompile Include="ListMain.c">
-      <Filter>소스 파일\p81 LIST%28Array%29</Filter>
-    </ClCompile>
     <ClCompile Include="p107 LinkedRead.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="p106 ArrayRead.c">
       <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="DLinkedList.c">
-      <Filter>소스 파일\p144 DLIST%28Dummy Node%29</Filter>
-    </ClCompile>
-    <ClCompile Include="DLinkedListMain.c">
-      <Filter>소스 파일\p144 DLIST%28Dummy Node%29</Filter>
     </ClCompile>
     <ClCompile Include="DBLinkedList.c">
       <Filter>소스 파일\p188 DBList%28Double%29,05-2</Filter>
@@ -66,25 +60,55 @@
     <ClCompile Include="DBLinkedListMain.c">
       <Filter>소스 파일\p188 DBList%28Double%29,05-2</Filter>
     </ClCompile>
-    <ClCompile Include="ArrayBaseStackMain.c">
-      <Filter>소스 파일\p205 stack</Filter>
+    <ClCompile Include="p144 DLinkedList.c">
+      <Filter>소스 파일\p144 DLIST%28Dummy Node%29</Filter>
     </ClCompile>
-    <ClCompile Include="ArrayBaseStack.c">
-      <Filter>소스 파일\p205 stack</Filter>
+    <ClCompile Include="p144 DLinkedListMain.c">
+      <Filter>소스 파일\p144 DLIST%28Dummy Node%29</Filter>
+    </ClCompile>
+    <ClCompile Include="p81 ArrayList.c">
+      <Filter>소스 파일\p81 LIST%28Array%29</Filter>
+    </ClCompile>
+    <ClCompile Include="p81 ListMain.c">
+      <Filter>소스 파일\p81 LIST%28Array%29</Filter>
+    </ClCompile>
+    <ClCompile Include="p211 ArrayBaseStack.c">
+      <Filter>소스 파일\p211 ArrayBaseStack</Filter>
+    </ClCompile>
+    <ClCompile Include="p211 ArrayBaseStackMain.c">
+      <Filter>소스 파일\p211 ArrayBaseStack</Filter>
+    </ClCompile>
+    <ClCompile Include="P213 ListBaseStack.c">
+      <Filter>소스 파일\p213 ListBaseStack</Filter>
+    </ClCompile>
+    <ClCompile Include="P213 ListBaseStackMain.c">
+      <Filter>소스 파일\p213 ListBaseStack</Filter>
+    </ClCompile>
+    <ClCompile Include="p162 CLinkedList.c">
+      <Filter>소스 파일\p162 CLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="p162 CLinkedListMain.c">
+      <Filter>소스 파일\p162 CLinkedList</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ArrayList.h">
-      <Filter>소스 파일\p81 LIST%28Array%29</Filter>
-    </ClInclude>
-    <ClInclude Include="DLinkedList.h">
-      <Filter>소스 파일\p144 DLIST%28Dummy Node%29</Filter>
-    </ClInclude>
     <ClInclude Include="DBLinkedList.h">
       <Filter>소스 파일\p188 DBList%28Double%29,05-2</Filter>
     </ClInclude>
-    <ClInclude Include="ArrayBaseStack.h">
-      <Filter>소스 파일\p205 stack</Filter>
+    <ClInclude Include="p144 DLinkedList.h">
+      <Filter>소스 파일\p144 DLIST%28Dummy Node%29</Filter>
+    </ClInclude>
+    <ClInclude Include="p81 ArrayList.h">
+      <Filter>소스 파일\p81 LIST%28Array%29</Filter>
+    </ClInclude>
+    <ClInclude Include="p211 ArrayBaseStack.h">
+      <Filter>소스 파일\p211 ArrayBaseStack</Filter>
+    </ClInclude>
+    <ClInclude Include="P213 ListBaseStack.h">
+      <Filter>소스 파일\p213 ListBaseStack</Filter>
+    </ClInclude>
+    <ClInclude Include="p162 CLinkedList.h">
+      <Filter>소스 파일\p162 CLinkedList</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

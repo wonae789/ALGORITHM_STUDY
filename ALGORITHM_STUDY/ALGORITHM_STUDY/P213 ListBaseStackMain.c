@@ -1,6 +1,6 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
-#include"ArrayBaseStack.h"
+#include "P213 ListBaseStack.h"
+
 int main()
 {
 	Stack stack;
@@ -16,6 +16,8 @@ int main()
 	while (!SIsEmpty(&stack))
 		printf("%d ", SPop(&stack));
 
-	return 0;
+
+
+
 
 }
