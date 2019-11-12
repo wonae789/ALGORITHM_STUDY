@@ -16,11 +16,11 @@
     <Filter Include="소스 파일\p144 DLIST%28Dummy Node%29">
       <UniqueIdentifier>{3a87b36e-0fc5-4d31-a6ed-9b150cb2ee4f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\p188 DBList%28Double%29">
-      <UniqueIdentifier>{547c2fe9-47b3-4ab1-9138-ebb98d71981a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\p81 LIST%28Array%29">
       <UniqueIdentifier>{f4fa0f86-475d-48dd-a51e-b539dd361a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\p188 DBList%28Double%29,05-2">
+      <UniqueIdentifier>{547c2fe9-47b3-4ab1-9138-ebb98d71981a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -58,10 +58,10 @@
       <Filter>소스 파일\p144 DLIST%28Dummy Node%29</Filter>
     </ClCompile>
     <ClCompile Include="DBLinkedList.c">
-      <Filter>소스 파일\p188 DBList%28Double%29</Filter>
+      <Filter>소스 파일\p188 DBList%28Double%29,05-2</Filter>
     </ClCompile>
     <ClCompile Include="DBLinkedListMain.c">
-      <Filter>소스 파일\p188 DBList%28Double%29</Filter>
+      <Filter>소스 파일\p188 DBList%28Double%29,05-2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -72,7 +72,7 @@
       <Filter>소스 파일\p144 DLIST%28Dummy Node%29</Filter>
     </ClInclude>
     <ClInclude Include="DBLinkedList.h">
-      <Filter>소스 파일\p188 DBList%28Double%29</Filter>
+      <Filter>소스 파일\p188 DBList%28Double%29,05-2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -22,11 +22,36 @@ int main(void)
 		while(LNext(&list, &data)) 
 			printf("%d ", data);
 		
-		while(LPrevious(&list, &data))
-			printf("%d ", data);
+		//while(LPrevious(&list, &data))
+		//	printf("%d ", data);
 		
 		printf("\n\n");
 	}
+	// 2의배수 삭제
+	if (LFirst(&list, &data))
+	{
+		if (data % 2 == 0)
+			LRemove(&list);
 
+		while (LNext(&list, &data))
+		{
+			if (data % 2 == 0)
+				LRemove(&list);
+		}
+	}
+
+	// 재조회
+	if (LFirst(&list, &data))
+	{
+		printf("%d ", data);
+
+		while (LNext(&list, &data))
+			printf("%d ", data);
+
+		//while(LPrevious(&list, &data))
+		//	printf("%d ", data);
+
+		printf("\n\n");
+	}
 	return 0;
 }
