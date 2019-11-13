@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\p162 CLinkedList">
       <UniqueIdentifier>{9ddcff04-66da-4cd7-b242-f666c7e2a7fc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\p260 CircluarQueue">
+      <UniqueIdentifier>{2fab2739-3a1a-47d3-87ad-64cff86ac67a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P19 LinearSearch.c">
@@ -90,6 +93,12 @@
     <ClCompile Include="p162 CLinkedListMain.c">
       <Filter>소스 파일\p162 CLinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="CircularQueue.c">
+      <Filter>소스 파일\p260 CircluarQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularQueueMain.c">
+      <Filter>소스 파일\p260 CircluarQueue</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DBLinkedList.h">
@@ -109,6 +118,9 @@
     </ClInclude>
     <ClInclude Include="p162 CLinkedList.h">
       <Filter>소스 파일\p162 CLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularQueue.h">
+      <Filter>소스 파일\p260 CircluarQueue</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
