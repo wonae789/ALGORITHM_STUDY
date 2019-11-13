@@ -93,10 +93,10 @@
     <ClCompile Include="p162 CLinkedListMain.c">
       <Filter>소스 파일\p162 CLinkedList</Filter>
     </ClCompile>
-    <ClCompile Include="CircularQueue.c">
+    <ClCompile Include="p260 CircularQueue.c">
       <Filter>소스 파일\p260 CircluarQueue</Filter>
     </ClCompile>
-    <ClCompile Include="CircularQueueMain.c">
+    <ClCompile Include="p260 CircularQueueMain.c">
       <Filter>소스 파일\p260 CircluarQueue</Filter>
     </ClCompile>
   </ItemGroup>
@@ -119,7 +119,7 @@
     <ClInclude Include="p162 CLinkedList.h">
       <Filter>소스 파일\p162 CLinkedList</Filter>
     </ClInclude>
-    <ClInclude Include="CircularQueue.h">
+    <ClInclude Include="p260 CircularQueue.h">
       <Filter>소스 파일\p260 CircluarQueue</Filter>
     </ClInclude>
   </ItemGroup>
