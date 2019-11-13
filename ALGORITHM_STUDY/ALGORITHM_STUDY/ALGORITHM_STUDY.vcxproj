@@ -148,13 +148,15 @@
     <ClCompile Include="p211 ArrayBaseStackMain.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="p264 ListBaseQueue.c" />
+    <ClCompile Include="p264 ListBaseQueueMain.c" />
     <ClCompile Include="p81 ArrayList.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="DBLinkedList.c">
+    <ClCompile Include="p188 DBLinkedList.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="DBLinkedListMain.c">
+    <ClCompile Include="p188 DBLinkedListMain.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="p144 DLinkedList.c">
@@ -201,10 +203,11 @@
     <ClInclude Include="p211 ArrayBaseStack.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
+    <ClInclude Include="p264 ListBaseQueue.h" />
     <ClInclude Include="p81 ArrayList.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="DBLinkedList.h">
+    <ClInclude Include="p188 DBLinkedList.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="p144 DLinkedList.h">

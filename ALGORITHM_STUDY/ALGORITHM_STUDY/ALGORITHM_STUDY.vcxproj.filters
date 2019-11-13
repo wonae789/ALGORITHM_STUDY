@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\p260 CircluarQueue">
       <UniqueIdentifier>{2fab2739-3a1a-47d3-87ad-64cff86ac67a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\p264 ListBaseQueue">
+      <UniqueIdentifier>{32a114ab-0202-4b59-aa23-954585abd24c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P19 LinearSearch.c">
@@ -56,12 +59,6 @@
     </ClCompile>
     <ClCompile Include="p106 ArrayRead.c">
       <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="DBLinkedList.c">
-      <Filter>소스 파일\p188 DBList%28Double%29,05-2</Filter>
-    </ClCompile>
-    <ClCompile Include="DBLinkedListMain.c">
-      <Filter>소스 파일\p188 DBList%28Double%29,05-2</Filter>
     </ClCompile>
     <ClCompile Include="p144 DLinkedList.c">
       <Filter>소스 파일\p144 DLIST%28Dummy Node%29</Filter>
@@ -99,11 +96,20 @@
     <ClCompile Include="p260 CircularQueueMain.c">
       <Filter>소스 파일\p260 CircluarQueue</Filter>
     </ClCompile>
+    <ClCompile Include="p188 DBLinkedList.c">
+      <Filter>소스 파일\p188 DBList%28Double%29,05-2</Filter>
+    </ClCompile>
+    <ClCompile Include="p188 DBLinkedListMain.c">
+      <Filter>소스 파일\p188 DBList%28Double%29,05-2</Filter>
+    </ClCompile>
+    <ClCompile Include="p264 ListBaseQueue.c">
+      <Filter>소스 파일\p264 ListBaseQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="p264 ListBaseQueueMain.c">
+      <Filter>소스 파일\p264 ListBaseQueue</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DBLinkedList.h">
-      <Filter>소스 파일\p188 DBList%28Double%29,05-2</Filter>
-    </ClInclude>
     <ClInclude Include="p144 DLinkedList.h">
       <Filter>소스 파일\p144 DLIST%28Dummy Node%29</Filter>
     </ClInclude>
@@ -121,6 +127,12 @@
     </ClInclude>
     <ClInclude Include="p260 CircularQueue.h">
       <Filter>소스 파일\p260 CircluarQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="p188 DBLinkedList.h">
+      <Filter>소스 파일\p188 DBList%28Double%29,05-2</Filter>
+    </ClInclude>
+    <ClInclude Include="p264 ListBaseQueue.h">
+      <Filter>소스 파일\p264 ListBaseQueue</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
