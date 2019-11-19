@@ -29,6 +29,7 @@ void Enqueue(Queue* pq, Data data)
 		pq->rear = newNode;
 	}
 	else //enqueue 의 과정이 첫번째 노드와 두번째 노드일때 구분되는 불편함이 있다.
+		 //2번째 Enqueue 부터는 else를 읽게된다.
 	{
 		pq->rear->next = newNode;
 		pq->rear = newNode;
@@ -45,8 +46,8 @@ Data Dequeue(Queue* pq)
 		exit(-1);
 	}
 
-	delNode = pq->front;
-	retData = delNode->data;
+	delNode = pq->front;// 주소 백업
+	retData = delNode->data; // 데이터 백업
 	pq->front = pq->front->next;//f가 다음 노드를 가르키게함.
 	free(delNode);
 	return retData; // 출력용으로.
